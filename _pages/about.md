@@ -78,6 +78,7 @@ Research on enabling large language models and agents to continuously acquire ne
 
 - **[Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models]**  
   **Your Name**, Yabin Zhang, Wenjie Zhu, Hui Tang, Zhiyuan Ma, Kaiyang Zhou, Lei Zhang
+  *Computer Vision and Pattern Recognition (CVPR'24)*, 2024 
   [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)](https://arxiv.org/abs/2403.17589)
   [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/YBZh/OpenOOD-VLM)
   [![Project](https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=safari)](link)
