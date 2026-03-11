@@ -51,7 +51,7 @@ Research on enabling large language models and agents to continuously acquire ne
 
 - **[ANTS: Adaptive Negative Textual Space Shaping for OOD Detection
         via Test-Time MLLM Understanding and Reasoning]**  
-  **Your Name**, Wenjie Zhu, Yabin Zhang, Xin Jin, Wenjun Zeng, Lei Zhang 
+  **Wenjie Zhu**, Yabin Zhang, Xin Jin, Wenjun Zeng, Lei Zhang 
   *Computer Vision and Pattern Recognition (CVPR'26)*, 2026  
   [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)](https://arxiv.org/abs/2509.03951)
   [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ZhuWenjie98/ANTS)
@@ -61,7 +61,7 @@ Research on enabling large language models and agents to continuously acquire ne
 ### 2025
 
 - **[Knowledge Regularized Negative Feature Tuning of Vision-Language Models for Out-of-Distribution Detection]**  
-  **Your Name**, Wenjie Zhu, Yabin Zhang, Xin Jin, Wenjun Zeng, Lei Zhang
+  **Wenjie Zhu**, Yabin Zhang, Xin Jin, Wenjun Zeng, Lei Zhang
   *the 34th ACM International Conference on Multimedia (ACMMM'25)*, 2025  
   [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)](https://dl.acm.org/doi/10.1145/3746027.3755120)
   [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ZhuWenjie98/KRNFT)
@@ -71,14 +71,14 @@ Research on enabling large language models and agents to continuously acquire ne
 ### 2024
 
 - **[LAPT: Label-driven Automated Prompt Tuning for OOD Detection with Vision-Language Models]**  
-  **Your Name**, Yabin Zhang, Wenjie Zhu, Chenhang He, Lei Zhang
+   Yabin Zhang, **Wenjie Zhu**, Chenhang He, Lei Zhang
   *European Conference on Computer Vision (ECCV'24)*, 2024  
   [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)](https://arxiv.org/abs/2407.08966)
   [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/YBZh/OpenOOD-VLM)
 
 - **[Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models]**  
-  **Your Name**, Yabin Zhang, Wenjie Zhu, Hui Tang, Zhiyuan Ma, Kaiyang Zhou, Lei Zhang
-  *Computer Vision and Pattern Recognition (CVPR'24)*, 2024 
+  Yabin Zhang, **Wenjie Zhu**, Hui Tang, Zhiyuan Ma, Kaiyang Zhou, Lei Zhang
+  *Computer Vision and Pattern Recognition (CVPR'24)*, 2024
   [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)](https://arxiv.org/abs/2403.17589)
   [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/YBZh/OpenOOD-VLM)
   [![Project](https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=safari)](link)
