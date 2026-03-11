@@ -17,7 +17,7 @@ Location    : Changsha, China
 Languages   : Chinese (Native), English (Fluent)
 ```
 
-I am a **fourth year Ph.D student** at the **Visual Computing Lab**, [Hong Kong Polytechnic University], advised by IEEE Fellow [Prof. Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) IEEE Fellow [VP. Wenjun Zeng](https://scholar.google.com/citations?user=_cUfvYQAAAAJ&hl=en) and . My research sits at the intersection of **Machine Learning** and **Computer Vision**, with a core mission of building **Trustworthy AI Systems**. 
+I am a **fourth year Ph.D student** at the **Visual Computing Lab**, Hong Kong Polytechnic University, advised by IEEE Fellow [Prof. Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) and IEEE Fellow [VP. Wenjun Zeng](https://scholar.google.com/citations?user=_cUfvYQAAAAJ&hl=en). My research sits at the intersection of **Machine Learning** and **Computer Vision**, with a core mission of building **Trustworthy AI Systems**. 
 
 * **2022 – 2025:** Focused on **Model Reliability**, specifically in Out-of-Distribution (OOD) detection and generalization for Vision-Language Models (VLMs).
 * **2026 – Present:** Transitioning toward **AI Alignment and Safety**, exploring how to ensure long-term value alignment and security through **Continual Learning** frameworks..
