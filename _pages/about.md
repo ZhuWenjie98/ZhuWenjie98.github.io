@@ -27,36 +27,20 @@ I am a **fourth year Ph.D student** at the **Visual Computing Lab**, [Hong Kong 
 
 ## 🔬 Research Interests
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 [OOD Detection, Test Time Adaptation]
+### 🧠 OOD Detection & Test Time Adaptation
 Research on enabling models to reliably detect inputs that fall outside the training distribution and maintain robust performance under distribution shifts at test time.
 
 **Keywords:** `OOD detection` `OOD generalization` `test time adaptation`
 
-</td>
-<td width="50%" valign="top">
-
-### 🤖 [AI Alignment, AI Safety]
+### 🤖 AI Alignment & AI Safety
 Research on ensuring large language models and autonomous agents pursue intended goals, remain controllable, and behave safely and reliably in alignment with human values across diverse deployment contexts.
 
-**Keywords:** `Alignment` `Safety` 
+**Keywords:** `Alignment` `Safety`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📊 [Continual Learning]
+### 📊 Continual Learning
 Research on enabling large language models and agents to continuously acquire new knowledge and skills over time without forgetting previously learned capabilities.
 
 **Keywords:** `Continual Learning`
-
-</td>
-<td width="50%" valign="top">
-
 
 ---
 
@@ -100,36 +84,16 @@ A Versatile Adaptation Approach for Vision-Language Models]**
   [![Project](https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=safari)](link)
 
 
+
 ## 🏅 Academic Service
 
 ### Reviewer / Program Committee
 
-<table>
-<thead>
-<tr>
-<th>Venue</th>
-<th>Type</th>
-<th>Years</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><b>AAAI</b></td>
-<td>Conference Reviewer</td>
-<td> 2026</td>
-</tr>
-<tr>
-<td><b>ICLR</b></td>
-<td>Conference Reviewer</td>
-<td>2025</td>
-</tr>
-<tr>
-<td><b>CVPR</b></td>
-<td>Conference Reviewer</td>
-<td>2024</td>
-</tr>
-</tbody>
-</table>
+| Venue | Type | Years |
+|-------|------|-------|
+| **AAAI** | Conference Reviewer | 2026 |
+| **ICLR** | Conference Reviewer | 2025 |
+| **CVPR** | Conference Reviewer | 2024 |
 
 ---
 
@@ -145,7 +109,7 @@ A Versatile Adaptation Approach for Vision-Language Models]**
 ---
 
 
-## 📈 GitHub Stats
+<!-- ## 📈 GitHub Stats
 
 <div align="center">
 
@@ -162,4 +126,4 @@ A Versatile Adaptation Approach for Vision-Language Models]**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=100&section=footer" width="100%"/>
 
-</div>
+</div> -->
