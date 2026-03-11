@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to Wenjie's Academic Pages"
 author_profile: true
 redirect_from: 
   - /about/
@@ -49,38 +49,37 @@ Research on enabling large language models and agents to continuously acquire ne
 > 📌 Full list on [Google Scholar](https://scholar.google.com/citations?user=8hodVdAAAAAJ&hl=zh-CN)
 ### 2026
 
-- **[Paper Title: ANTS: Adaptive Negative Textual Space Shaping for OOD Detection
+- **[ANTS: Adaptive Negative Textual Space Shaping for OOD Detection
         via Test-Time MLLM Understanding and Reasoning]**  
   **Your Name**, Wenjie Zhu, Yabin Zhang, Xin Jin, Wenjun Zeng, Lei Zhang 
   *Computer Vision and Pattern Recognition (CVPR'26)*, 2026  
-  [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)]([link](https://arxiv.org/abs/2509.03951))
-  [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)]([link](https://github.com/ZhuWenjie98/ANTS))
+  [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)](https://arxiv.org/abs/2509.03951)
+  [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ZhuWenjie98/ANTS)
   [![Project](https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=safari)](link)
 
 
 ### 2025
 
-- **[Paper Title: Knowledge Regularized Negative Feature Tuning of Vision-Language Models for Out-of-Distribution Detection]**  
+- **[Knowledge Regularized Negative Feature Tuning of Vision-Language Models for Out-of-Distribution Detection]**  
   **Your Name**, Wenjie Zhu, Yabin Zhang, Xin Jin, Wenjun Zeng, Lei Zhang
   *the 34th ACM International Conference on Multimedia (ACMMM'25)*, 2025  
-  [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)]([link](https://dl.acm.org/doi/10.1145/3746027.3755120))
-  [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)]([link](https://github.com/ZhuWenjie98/KRNFT))
+  [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)](https://dl.acm.org/doi/10.1145/3746027.3755120)
+  [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ZhuWenjie98/KRNFT)
   [![Project](https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=safari)](link)
 
 
 ### 2024
 
-- **[Paper Title: LAPT: Label-driven Automated Prompt Tuning for OOD Detection with Vision-Language Models]**  
+- **[LAPT: Label-driven Automated Prompt Tuning for OOD Detection with Vision-Language Models]**  
   **Your Name**, Yabin Zhang, Wenjie Zhu, Chenhang He, Lei Zhang
   *European Conference on Computer Vision (ECCV'24)*, 2024  
-  [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)]([link](https://arxiv.org/abs/2407.08966))
-  [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)]([link](https://github.com/YBZh/OpenOOD-VLM))
+  [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)](https://arxiv.org/abs/2407.08966)
+  [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/YBZh/OpenOOD-VLM)
 
-- **[Paper Title: Dual Memory Networks:
-A Versatile Adaptation Approach for Vision-Language Models]**  
+- **[Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models]**  
   **Your Name**, Yabin Zhang, Wenjie Zhu, Hui Tang, Zhiyuan Ma, Kaiyang Zhou, Lei Zhang
-  [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)]([link]https://arxiv.org/abs/2403.17589)
-  [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)]([link](https://github.com/YBZh/OpenOOD-VLM))
+  [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)](https://arxiv.org/abs/2403.17589)
+  [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/YBZh/OpenOOD-VLM)
   [![Project](https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=safari)](link)
 
 
