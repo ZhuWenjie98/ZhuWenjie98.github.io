@@ -7,159 +7,50 @@ redirect_from:
   - /about.html
 ---
 
-## 👤 About Me
+This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
-```yaml
-Name        : Wenjie Zhu（朱文杰)
-Position    : Ph.D. Candidate 
-Affiliation : Department of Computing, Hong Kong Polytechnic University
-Location    : Changsha, China
-Languages   : Chinese (Native), English (Fluent)
-```
+ You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
-I am a **fourth year Ph.D student** at the **Visual Computing Lab**, [Hong Kong Polytechnic University], advised by IEEE Fellow [Prof. Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) IEEE Fellow [VP. Wenjun Zeng](https://scholar.google.com/citations?user=_cUfvYQAAAAJ&hl=en) and . My research sits at the intersection of **[machine learning]** and **[computer vision]**, with a focus on developing [trustworthy vision language model].
+A data-driven personal website
+======
+Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-> 🎓 B.S. in [Software Engineering] — [Central South University], [2020]  
-> 🎓 M.S. in [Computing Engineering] — [New York University], [2022]  
-> 🎓 Ph.D. in [Computing] — [Hong Kong Polytechnic University], [2022 - Present]
+Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
----
+For those users that need more advanced functionality, the template also supports the following popular tools:
+- [MathJax](https://www.mathjax.org/) for mathematical equations
+- [Mermaid](https://mermaid.js.org/) for diagraming
+- [Plotly](https://plotly.com/javascript/) for plotting
 
-## 🔬 Research Interests
+Getting started
+======
+1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
+1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
+1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+1. Check status by going to the repository settings, in the "GitHub pages" section
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Site-wide configuration
+------
+The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-### 🧠 [OOD Detection, Test Time Adaptation]
-Research on enabling models to reliably detect inputs that fall outside the training distribution and maintain robust performance under distribution shifts at test time.
+Create content & metadata
+------
+For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Keywords:** `OOD detection` `OOD generalization` `test time adaptation`
+**Markdown generator**
 
-</td>
-<td width="50%" valign="top">
+The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
+) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
 
-### 🤖 [AI Alignment, AI Safety]
-Research on ensuring large language models and autonomous agents pursue intended goals, remain controllable, and behave safely and reliably in alignment with human values across diverse deployment contexts.
+How to edit your site's GitHub repository
+------
+Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-**Keywords:** `Alignment` `Safety` 
+Example: editing a Markdown file for a talk
+![Editing a Markdown file for a talk](/images/editing-talk.png)
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📊 [Continual Learning]
-Research on enabling large language models and agents to continuously acquire new knowledge and skills over time without forgetting previously learned capabilities.
-
-**Keywords:** `Continual Learning`
-
-</td>
-<td width="50%" valign="top">
-
-
----
-
-## 📄 Selected Publications
-
-> 📌 Full list on [Google Scholar](https://scholar.google.com/citations?user=8hodVdAAAAAJ&hl=zh-CN)
-### 2026
-
-- **[Paper Title: ANTS: Adaptive Negative Textual Space Shaping for OOD Detection
-        via Test-Time MLLM Understanding and Reasoning]**  
-  **Your Name**, Wenjie Zhu, Yabin Zhang, Xin Jin, Wenjun Zeng, Lei Zhang 
-  *Computer Vision and Pattern Recognition (CVPR'26)*, 2026  
-  [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)]([link](https://arxiv.org/abs/2509.03951))
-  [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)]([link](https://github.com/ZhuWenjie98/ANTS))
-  [![Project](https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=safari)](link)
-
-
-### 2025
-
-- **[Paper Title: Knowledge Regularized Negative Feature Tuning of Vision-Language Models for Out-of-Distribution Detection]**  
-  **Your Name**, Wenjie Zhu, Yabin Zhang, Xin Jin, Wenjun Zeng, Lei Zhang
-  *the 34th ACM International Conference on Multimedia (ACMMM'25)*, 2025  
-  [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)]([link](https://dl.acm.org/doi/10.1145/3746027.3755120))
-  [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)]([link](https://github.com/ZhuWenjie98/KRNFT))
-  [![Project](https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=safari)](link)
-
-
-### 2024
-
-- **[Paper Title: LAPT: Label-driven Automated Prompt Tuning for OOD Detection with Vision-Language Models]**  
-  **Your Name**, Yabin Zhang, Wenjie Zhu, Chenhang He, Lei Zhang
-  *European Conference on Computer Vision (ECCV'24)*, 2024  
-  [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)]([link](https://arxiv.org/abs/2407.08966))
-  [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)]([link](https://github.com/YBZh/OpenOOD-VLM))
-
-- **[Paper Title: Dual Memory Networks:
-A Versatile Adaptation Approach for Vision-Language Models]**  
-  **Your Name**, Yabin Zhang, Wenjie Zhu, Hui Tang, Zhiyuan Ma, Kaiyang Zhou, Lei Zhang
-  [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)]([link]https://arxiv.org/abs/2403.17589)
-  [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)]([link](https://github.com/YBZh/OpenOOD-VLM))
-  [![Project](https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=safari)](link)
-
-
-## 🏅 Academic Service
-
-### Reviewer / Program Committee
-
-<table>
-<thead>
-<tr>
-<th>Venue</th>
-<th>Type</th>
-<th>Years</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><b>AAAI</b></td>
-<td>Conference Reviewer</td>
-<td> 2026</td>
-</tr>
-<tr>
-<td><b>ICLR</b></td>
-<td>Conference Reviewer</td>
-<td>2025</td>
-</tr>
-<tr>
-<td><b>CVPR</b></td>
-<td>Conference Reviewer</td>
-<td>2024</td>
-</tr>
-</tbody>
-</table>
-
----
-
-## 🏆 Honors & Awards
-
-| Year | Award |
-|------|-------|
-| 2024 | 🥇 [Award Name] — [Awarding Organization] |
-| 2023 | 🎖️ [Fellowship/Scholarship Name] — [Institution] |
-| 2022 | 🏅 Best Paper Award — [Conference Name] |
-| 2021 | 🎓 [Merit/Scholarship] — [Institution] |
-
----
-
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
-
----
-
-<div align="center">
-
-<sub>Last updated: March 2026 · Feel free to reach out for collaborations!</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=100&section=footer" width="100%"/>
-
-</div>
+For more info
+------
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
