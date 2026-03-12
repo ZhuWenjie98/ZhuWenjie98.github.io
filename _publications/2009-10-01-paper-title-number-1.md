@@ -6,9 +6,8 @@ permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2026-02-21
 venue: 'Conference'
-slidesurl: 'https://arxiv.org/abs/2509.03951'
-paperurl: 'https://arxiv.org/abs/2509.03951'
-bibtexurl: 'https://arxiv.org/abs/2509.03951'
+slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
+paperurl: 'https://academicpages.github.io/files/paper1.pdf'
 citation: 'article{zhu2025ants, title={ANTS: Adaptive Negative Textual Space Shaping for OOD Detection via Test-Time MLLM Understanding and Reasoning}, author={Zhu, Wenjie and Zhang, Yabin and Jin, Xin and Zeng, Wenjun and Zhang, Lei}, journal={arXiv preprint arXiv:2509.03951}, year={2025} }'
 ---
 
