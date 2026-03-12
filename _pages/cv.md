@@ -11,35 +11,27 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+> 🎓 B.S. in [Software Engineering] — [Central South University], [2020]  
+> 🎓 M.S. in [Computing Engineering] — [New York University], [2022]  
+> 🎓 Ph.D. in [Computing] — [Hong Kong Polytechnic University], [2022 - Present]
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* March 2021-Aug 2021: Computer Vision Research Intern
+  * OPPO shanghai research institute
+  * Duties includes: Self-supervised learning
+  * Supervisor: Youcai Zhang
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
+* Python
+* Pytorch
+  <!-- * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+<!-- * Skill 3 --> -->
 
 Publications
 ======
