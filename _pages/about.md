@@ -96,20 +96,23 @@ Research on enabling large language models and agents to continuously acquire ne
 
 | Venue | Type | Years |
 |-------|------|-------|
-| **AAAI** | Conference Reviewer | 2026 |
+| **IJCV** | Journal Reviewer | 2026 |
+| **ECCV** | Conference Reviewer | 2026 |
+| **ICML** | Conference Reviewer | 2026 |
+| **AAAI** | Conference Reviewer | 2025 |
 | **ICLR** | Conference Reviewer | 2025 |
 | **CVPR** | Conference Reviewer | 2024 |
 
 ---
 
-## 🏆 Honors & Awards
+<!-- ## 🏆 Honors & Awards
 
 | Year | Award |
 |------|-------|
 | 2024 | 🥇 [Award Name] — [Awarding Organization] |
 | 2023 | 🎖️ [Fellowship/Scholarship Name] — [Institution] |
 | 2022 | 🏅 Best Paper Award — [Conference Name] |
-| 2021 | 🎓 [Merit/Scholarship] — [Institution] |
+| 2021 | 🎓 [Merit/Scholarship] — [Institution] | -->
 
 ---
 
