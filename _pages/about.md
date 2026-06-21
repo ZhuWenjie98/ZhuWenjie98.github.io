@@ -74,7 +74,7 @@ Test-Time Adaptation with VLMs]**
 
 - **[Knowledge Regularized Negative Feature Tuning of Vision-Language Models for Out-of-Distribution Detection]**  
   **Wenjie Zhu**, Yabin Zhang, Xin Jin, Wenjun Zeng, Lei Zhang
-  *the 34th ACM International Conference on Multimedia (ACMMM'25)*, 2025  
+  *the 34th ACM International Conference on Multimedia (ACMMM'25 <span style="color:red">Oral</span>)*, 2025  
   [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)](https://dl.acm.org/doi/10.1145/3746027.3755120)
   [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ZhuWenjie98/KRNFT)
   [![Project](https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=safari)](link)
