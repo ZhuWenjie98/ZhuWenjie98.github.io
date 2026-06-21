@@ -53,16 +53,15 @@ Research on enabling large language models and agents to continuously acquire ne
 
 > 📌 Full list on [Google Scholar](https://scholar.google.com/citations?user=8hodVdAAAAAJ&hl=zh-CN)
 ### 2026
-- **[Dual Distribution Estimation for Zero-shot Noisy
-Test-Time Adaptation with VLMs]**  
+
+- **[Dual Distribution Estimation for Zero-shot Noisy Test-Time Adaptation with VLMs]**  
   **Wenjie Zhu**, Yabin Zhang, Liang Xu, Xin Jin, Wenjun Zeng, Lei Zhang 
-  *Computer Vision and Pattern Recognition (ECCV'26)*, 2026
+  *The 19th European Conference on Computer Vision (ECCV'26)*, 2026
   [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)]()
   [![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat-square&logo=github)](https://github.com/ZhuWenjie98/DDE)
   [![Project](https://img.shields.io/badge/Project-Page-blue?style=flat-square&logo=safari)](link)
 
-- **[ANTS: Adaptive Negative Textual Space Shaping for OOD Detection
-        via Test-Time MLLM Understanding and Reasoning]**  
+- **[ANTS: Adaptive Negative Textual Space Shaping for OOD Detection via Test-Time MLLM Understanding and Reasoning]**  
   **Wenjie Zhu**, Yabin Zhang, Xin Jin, Wenjun Zeng, Lei Zhang 
   *Computer Vision and Pattern Recognition (CVPR'26 <span style="color:red">Oral</span>)*, 2026
   [![Paper](https://img.shields.io/badge/Paper-PDF-red?style=flat-square&logo=adobe-acrobat-reader)](https://arxiv.org/abs/2509.03951)
